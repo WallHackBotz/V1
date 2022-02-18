@@ -16,7 +16,7 @@ Simple Rpg WhatsApp Bot v18
 
 ## Deploy to heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/saipulanuar/v18)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/WallHackBotz/alan-heroku)
 
 Heroku Buildpack
 | BuildPack | LINK |
