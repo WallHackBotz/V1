@@ -25,8 +25,6 @@ const defaultMenu = {
 ┏━ꕥ
 ┃✾ Uptime: *%uptime (%muptime)*
 ┃✾ Database: %rtotalreg dari %totalreg
-┃✾ Youtube:
-┃✾ https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
 ┗━━━━━━ꕥ`.trimStart(),
   header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
   body: '┃✾%cmd %islimit %isPremium',
@@ -254,10 +252,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┗━ꕥ
 ┏━ꕥ
 ┃✾ Script by King Of Bear
-┃✾ Github Name : https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
-┃✾ Yt : https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
+┃✾ Di Recode Alan 
 ┃✾ Run bot : Heroku
-┃✾ Tipe SC King Of Bear
+┃✾ Tipe SC Alan BOTZ || V3
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
