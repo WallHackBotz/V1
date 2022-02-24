@@ -255,7 +255,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃✾ Di Recode Alan 
 ┃✾ Run bot : Heroku
 ┃✾ Tipe SC Alan BOTZ || V3
-┃✾ Gw sslalu Reset Data nama Pengguna Pada Jam. 02:00 
+┃✾ Gw Selalu Reset Data nama Pengguna Pada Jam 02:00 
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
