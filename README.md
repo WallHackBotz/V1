@@ -67,11 +67,21 @@ node .
 ---------
 
 ## Thank You to
+
 ```Big Thanks To
 
-My God
-My Parent
-King Of Bear
-Nurutomo
-and All Creator Bot
+Thank You to My God
+Thank You to Nurutomo as wabot-aq 
+Thank You to ariffb as stikerinbot
+Thank You to botstyle
+Thank You to bochilgaming as games-wabot
+Thank You to benni ismael 
+Thank You to zerochanBot
+Thank You to fernazer
+Thank You to King Of Bear Official
+Thank You to Mikebot Dev Team
+Thank You to My Team
+Thank You to Penyedia APIKEY
+Thank You to All Creator Bot
+and big Thanks you to Who support my Bot
 ```
