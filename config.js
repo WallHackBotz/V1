@@ -16,10 +16,10 @@ gc1 = 'https://chat.whatsapp.com/LDLbTSvavg62nEVQH3xFTN'
 gc2 = 'https://chat.whatsapp.com/KsPXe06GnCNC4pg1BYf9wT'
 gc3 = 'https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8'
 global.linkGC = ['https://chat.whatsapp.com/KsPXe06GnCNC4pg1BYf9wT', 'https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8'] // ganti jadi group lu
-global.owner = ['62895328255152','6281285921254','6282146189699','6287882887768'] // Put your number here //owner eval
+global.owner = ['62895328255152','6281285921254','6282146189699','6287785531253'] // Put your number here //owner eval
 global.kontak = ['62895328255152','6281226675327','6281285921254','6282146189699'] //Ketika ada yang ngetik #owner
-global.mods = ['62881026342148','6281226675327'] // Want some help?
-global.prems = ['6281226675327','62895328255152','62895401928948','6287882887768','6282291374279','6282146189699'] // Premium user has unlimited limit
+global.mods = ['62881026342148','6285780689812'] // Want some help?
+global.prems = ['6281226675327','62895328255152','62895401928948','6287882887768','6282291374279','6282146189699','6285780689812'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -57,10 +57,10 @@ bearkey = 'buy'
 namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
-namakontak1 = 'Owner'
-namakontak2 = 'Helper'
-namakontak3 = 'Helper'
-namakontak4 = 'Helper'
+namakontak1 = 'Owner Utama'
+namakontak2 = 'Rayhan' 
+namakontak3 = 'Bandar'
+namakontak4 = 'Agungbramana'
 
 //kasihcaption = `Nih Kak`
 
@@ -72,7 +72,7 @@ global.author = 'King Of Bear' // ganti aja
 bc = 'Alan BOTZ || V3' //King Of Bear Broadcast
 footer = '\n©Alan BOTZ || V3'
 namabot = 'Alan BOTZ || V3'
-namalu = 'Alan'
+namalu = 'Owner utama'
 
 
 // 
