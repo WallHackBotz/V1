@@ -2,11 +2,11 @@ let { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn }) => {
     let user = global.db.data.users[m.sender]
-    let _timers = (2592000000 - (new Date - user.lastmonthly))
+    let _timers = (2592000 - (new Date - user.lastmonthly))
     let timers = clockString(_timers) 
-    if (new Date - user.lastmonthly > 2592000000) {
-        conn.reply(m.chat, `Anda sudah mengklaim dan mendapatkan 100000 💵money, 5 🎁Legendary crate dan 3 📦Pet crate`, m)
-        user.money += 100000
+    if (new Date - user.lastmonthly > 2592000) {
+        conn.reply(m.chat, `Anda sudah mengklaim dan mendapatkan 1000000000000000000000000000000000000 💵money, 5 🎁Legendary crate dan 3 📦Pet crate`, m)
+        user.money += 1000000000000000000000000000000000000
         user.legendary += 5
         user.pet += 3
         user.lastmonthly = new Date * 1
@@ -38,7 +38,7 @@ function button(teks, user) {
     const buttons = []
     
     let claim = new Date - user.lastclaim > 86400000
-    let monthly = new Date - user.lastmonthly > 2592000000
+    let monthly = new Date - user.lastmonthly > 2592000
     let weekly = new Date - user.lastweekly > 604800000
     console.log({claim, monthly, weekly})
     
