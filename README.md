@@ -1,5 +1,5 @@
-# v18
-Simple Rpg WhatsApp Bot v18
+# V1
+Simple Rpg WhatsApp Bot V1
 
 <a href="https://github.com/saipulanuar/v18/network/members"><img title="Forks" src="https://img.shields.io/github/forks/saipulanuar/v18?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/saipulanuar/v18/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/saipulanuar/v18?label=Watchers&color=green&style=flat-square"></a>
@@ -65,3 +65,9 @@ node .
 ```
 
 ---------
+
+BIG THANKS TO
+
+MY God
+king Of Bear
+Nurutomo
