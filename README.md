@@ -66,8 +66,11 @@ node .
 
 ---------
 
-BIG THANKS TO
+```Big Thanks To
 
-MY God
-king Of Bear
+My God
+My Parent
+King Of Bear
 Nurutomo
+and All Creator Bot
+```
