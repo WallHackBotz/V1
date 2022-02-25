@@ -57,8 +57,10 @@ bearkey = 'buy'
 namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
-namakontak1 = 'Alan'
-namakontak2 = 'WhatsApp'
+namakontak1 = 'Owner'
+namakontak2 = 'Helper'
+namakontak3 = 'Helper'
+namakontak4 = 'Helper'
 
 //kasihcaption = `Nih Kak`
 
