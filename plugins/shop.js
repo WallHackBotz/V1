@@ -24,9 +24,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
     const _armor = global.db.data.users[m.sender].armor
     const armor = (_armor == 0 ? 200000 : '' || _armor == 1 ? 59999 : '' || _armor == 2 ? 999999 : '' || _armor == 3 ? 249999 : '' || _armor == 4 ? 599999 : '')
     const _pickaxe = global.db.data.users[m.sender].pickaxe
-    const pickaxe = (_pickaxe == 0 ? 200000 : '' || _pickaxe == 1 ? 59999 : '' || _pickaxe == 2 ? 999999 : '' || _pickaxe == 3 ? 249999 : '' || _pickaxe == 4 ? 599999 : '')
+    const pickaxe = (_pickaxe == 0 ? 1000000 : '' || _pickaxe == 1 ? 2000000 : '' || _pickaxe == 2 ? 15000000 : '' || _pickaxe == 3 ? 30000000 : '' || _pickaxe == 4 ? 60000000 : '')
         const _fishingrod = global.db.data.users[m.sender].fishingrod
-    const fishingrod = (_fishingrod == 0 ? 200000 : '' || _fishingrod == 1 ? 59999 : '' || _fishingrod == 2 ? 999999 : '' || _fishingrod == 3 ? 249999 : '' || _fishingrod == 4 ? 299999 : '')
+    const fishingrod = (_fishingrod == 0 ? 200000
+	: '' || _fishingrod == 1 ? 59999 : '' || _fishingrod == 2 ? 999999 : '' || _fishingrod == 3 ? 249999 : '' || _fishingrod == 4 ? 299999 : '')
     let type = (args[0] || '').toLowerCase()
     let _type = (args[1] || '').toLowerCase()
     let jualbeli = (args[0] || '').toLowerCase()
