@@ -32,7 +32,7 @@ let handler = async (m, { conn }) => {
 ┃✾ *Menu Info Bot*
 ┃✾ *Menu Virus/Virtex*
 ┃✾ *Menu Tanpa Kategori*
-┗━ꕥ©2022 King Of Bearꕥ━⬣`.trim(), m)
+┗━ꕥ©2022 ALAN BOTZ ꕥ━⬣`.trim(), m)
 }
 
 handler.command = /^viadana$/i
