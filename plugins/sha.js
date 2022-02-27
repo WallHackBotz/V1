@@ -2,7 +2,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ye = `@${m.sender.split`@`[0]}`
 let info = `Hai Kak ${ye} lagi nyari sc nya ya?
 Link Sc Dibawah Ini :
-https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
+https://www.youtube.com/channel/UCTK9VwCXKJXOLh8XusN1JpQ/featured
 
 *Jangan Lupa Subscribe ya kak, kalo gak subscribe saya doakan gak work aminn...*
 `.trim()
