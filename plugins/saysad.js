@@ -23,7 +23,7 @@ var seconds = Math.floor(seconds % 60);
 return `${pad(hours)}Jam ${pad(minutes)}Menit ${pad(seconds)}Detik`
 }
 runtime = process.uptime()
-					teks = `𝑲𝒊𝒏𝒈 𝑶𝒇 𝑩𝒆𝒂𝒓 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍`// \n\n${kyun(runtime)}`
+					teks = `ALANBOTZ`// \n\n${kyun(runtime)}`
 					run = `${kyun(runtime)}`
 					var itsme = `0@s.whatsapp.net`
 					var split = `teks`
@@ -45,7 +45,7 @@ runtime = process.uptime()
                       }
 					//m.reply(teks)
 					
-conn.sendMessage(m.chat, `*Bot aktif selama*\n${run}\n\n_©King Of Bear_`, 'conversation', {quoted: ftrol})
+conn.sendMessage(m.chat, `*Bot aktif selama*\n${run}\n\n_©ALAN_`, 'conversation', {quoted: ftrol})
 }
 
 
