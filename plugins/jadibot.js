@@ -71,10 +71,10 @@ handler.tags = ['premium']
 handler.command = /^(jadibot)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = true
+handler.premium = false
 handler.group = false
 handler.private = true
-handler.limit = 50
+handler.limit = 10
 
 handler.admin = false
 handler.botAdmin = false
