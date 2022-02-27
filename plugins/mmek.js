@@ -24,28 +24,29 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 
 ➥ ${namabot} Versi ${package.version}
-➥ *Yt:* https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
+➥ *Yt:* https://www.youtube.com/channel/UCTK9VwCXKJXOLh8XusN1JpQ/featured
 ➥ *Ping:* ${neww - old} *ms*
 ➥ *Total user:* ${totalreg} *user*
 ➥ *Uptime:* ${uptime}
 
 ═ 〘 DONASI 〙 ═
-➥ Saweria : https://saweria.co/raraharsita2
-➥ Dana: [0882-7926-8363]
+➥ Saweria : https://saweria.co/Alanadi
+➥ GOPAY: [0895wa web
+-3282-55152]
 
 
-➥ Request? https://www.youtube.com/channel/UCVSEzfCh6VYL3g9ixHnSqXQ
+➥ Request? wa.me/62895328255152
 
 Official Grup :
 
 Grup 1 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
+https://chat.whatsapp.com/Dc1eNBwm7j51rLmQTTzZg0
 
 Grup 2 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
+https://chat.whatsapp.com/G4tkkntvsnYEnes8DKd3g8
 
 Grup 3 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
+https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8
 
 
  ©BaseNew ${namabot}
