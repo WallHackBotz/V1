@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
 ╠➥ *1 Fitur* : *Rp 5.000.00 No Apikey*
 ╠➥ *1 Fitur* : *Rp 8.000.00 + Apikey*
 ╠➥ *Beli Apikey* : *Rp 20.000.00 = 1 Bulan*
-╠➥ *Sc Bot* :        *https://youtu.be/jJrZYhM8fGQ*
+╠➥ *Sc Bot* :        *https://www.youtube.com/channel/UCTK9VwCXKJXOLh8XusN1JpQ/featured*
 ║
 ╠═〘 PEMBAYARAN 〙 ═
 ╠➥ Gopay, Dana, Dan Ovo
@@ -18,7 +18,7 @@ let handler = async (m, { conn }) => {
 ╠═ Tertarik Untuk Beli Bot Ini?
 ╠➥Ketuk Tombol Di Bawah Ya
 ║
-╠═ ©2022 King Of Bear
+╠═ ©2022 ALAN BOTZ || V1
 ╠═ Scrip original by Nurutomo
 ╠═〘 ${namabot} 〙 ═`.trim(), footer, 'Dana', '#viadana', 'OVO', '#viaovo', 'Pulsa', '#viapulsa', m)
 }
