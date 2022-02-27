@@ -9,7 +9,7 @@ CFonts.say('Rpg\nKingOfBear', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'${package.name}' By @${package.author.name || package.author}\nYUKI BOT ver 1.5.0\nRecode By KING OF BEAR`, {
+CFonts.say(`'${package.name}' By @${package.author.name || package.author}\nWLAN BOT ver 1.5.0\nRecode By ALAN`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
