@@ -11,6 +11,16 @@ async function handler(m) {
   number2 = kontak[1].replace(/[^0-9]/g, '')
   let njid2 = number2 + '@s.whatsapp.net'
   let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
+  
+  let name3 = namakontak3
+  number3 = kontak[2].replace(/[^0-9]/g, '')
+  let njid2 = number2 + '@s.whatsapp.net'
+  let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
+  
+  let name4 = namakontak4
+  number4 = kontak[3].replace(/[^0-9]/g, '')
+  let njid2 = number3 + '@s.whatsapp.net'
+  let onW2 = await this.isOnWhatsApp(njid2) || { isBusiness: false }
 
   this.sendMessage(m.chat, {
     contacts: [{
