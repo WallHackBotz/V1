@@ -3,12 +3,12 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn }) => {
     let user = global.db.data.users[m.sender]
     let __timers = (new Date - user.lastclaim)
-    let _timers = (86400000 - __timers)
+    let _timers = ( 604800000 - __timers)
     let timers = clockString(_timers) 
-    if (new Date - user.lastclaim > 86400000) {
-        conn.reply(m.chat, `Anda sudah mengklaim dan mendapatkan 1000 💵money dan 1 potion`, m)
-        global.db.data.users[m.sender].money += 1000
-        global.db.data.users[m.sender].potion += 1
+    if (new Date - user.lastclaim >  604800000) {
+        conn.reply(m.chat, `Anda sudah mengklaim dan mendapatkan 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 💵money dan 1000000000000000 potion`, m)
+        global.db.data.users[m.sender].money += 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+        global.db.data.users[m.sender].potion +=  1000000000000000
         global.db.data.users[m.sender].lastclaim = new Date * 1
     } else {
         let buttons = `silahkan tunggu *🕒${timers}* lagi untuk bisa mengclaim lagi`.trim()
@@ -18,8 +18,8 @@ let handler = async (m, { conn }) => {
 handler.help = ['claim']
 handler.tags = ['rpg']
 handler.command = /^(claim|daily)$/i
-handler.owner = false
-handler.mods = false
+handler.owner = true
+handler.mods = true
 handler.premium = false
 handler.group = false
 handler.private = false
@@ -46,9 +46,9 @@ function clockString(ms) {
 function button(teks, user) {
     const buttons = []
     
-    let claim = new Date - user.lastclaim > 86400000
+    let claim = new Date - user.lastclaim > 604800000
     let monthly = new Date - user.lastmonthly > 2592000000
-    let weekly = new Date - user.lastweekly > 604800000
+    let weekly = new Date - user.lastweekly > 86400000
     console.log({claim, monthly, weekly})
     
     if (monthly) buttons.push({buttonId: `id${buttons.length + 1}`, buttonText: {displayText: '/monthly'}, type: 1})
