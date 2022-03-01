@@ -23,7 +23,7 @@ var seconds = Math.floor(seconds % 60);
 return `${pad(hours)}Jam ${pad(minutes)}Menit ${pad(seconds)}Detik`
 }
 runtime = process.uptime()
-					teks = `𝑲𝒊𝒏𝒈 𝑶𝒇 𝑩𝒆𝒂𝒓 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍`// \n\n${kyun(runtime)}`
+					teks = `𝘼𝙇𝘼𝙉 𝘽𝙊𝙏𝙕`// \n\n${kyun(runtime)}`
 					run = `${kyun(runtime)}`
 					var itsme = `0@s.whatsapp.net`
 					var split = `teks`
