@@ -252,11 +252,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┗━ꕥ
 ┏━ꕥ
 ┃✾ Script by King Of Bear
-┃✾ Di Recode Alan 
+┃✾ Di Tulis Ulang Alan 
 ┃✾ Run bot : Heroku
 ┃✾ Tipe SC Alan BOTZ || V3
 ┃✾ Github Gwejh
-┃✾ https://github.com/WallHackBotz/Alan-wabot
+┃✾ https://github.com/WallHackBotz
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
