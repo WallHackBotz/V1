@@ -58,10 +58,8 @@ namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
 namakontak1 = 'Owner Utama'
-namakontak2 = 'Wakil Gwejh' 
-namakontak3 = 'Rayhan Bogor' 
-namakontak4 = 'Bandar'
-  
+namakontak2 = 'Wakil gwejh'
+
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
@@ -70,8 +68,8 @@ global.author = 'King Of Bear' // ganti aja
 
 //yyy
 bc = 'Alan BOTZ || V3' //King Of Bear Broadcast
-footer = '\n©Alan BOTZ || V3'
-namabot = 'Alan BOTZ || V3'
+footer = '\n©FRANZ BOT'
+namabot = 'FRANZ BOT'
 namalu = 'Alan Si Colikiawan'
 
 
