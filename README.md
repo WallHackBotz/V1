@@ -68,6 +68,10 @@ node .
 
 # Thanks TO
 
-<a href="https://github.com/DikaArdnt"><img src="https://github.com/Nurutomot.png?size=100" width="100" height="100"></a>
-[Nurutomo](https://github.com/Nurutomo)
-Pembuat Base 
+<a href="https://github.com/Nurutomo"><img src="https://github.com/Nurutomo.png?size=100" width="100" height="100">
+[Alan](https://github.com/Nurutomo)
+Creator |
+
+<a href="https://github.com/WallHackBotz"><img src="https://github.com/WallHackBotz.png?size=100" width="100" height="100">
+[Alan](https://github.com/WallHackBotz)
+Penulis Ulang 2 |
