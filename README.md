@@ -1,8 +1,3 @@
-</p>
-<p align="center">
-<a href="#"><img title="ALAN BOT V1" src="https://img.shields.io/badge/ALPHABOT MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-
 # V1
 Simple Rpg WhatsApp Bot V1
 
@@ -71,22 +66,8 @@ node .
 
 ---------
 
-## Thank You to
+# Thanks TO
 
-```Big Thanks To
-
-Thank You to My God
-Thank You to Nurutomo as wabot-aq 
-Thank You to ariffb as stikerinbot
-Thank You to botstyle
-Thank You to bochilgaming as games-wabot
-Thank You to benni ismael 
-Thank You to zerochanBot
-Thank You to fernazer
-Thank You to King Of Bear Official
-Thank You to Mikebot Dev Team
-Thank You to My Team
-Thank You to Penyedia APIKEY
-Thank You to All Creator Bot
-and big Thanks you to Who support my Bot
-```
+[![NURUTOMO](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) 
+[Nurutomo](https://github.com/Nurutomo)
+Pembuat Base |
