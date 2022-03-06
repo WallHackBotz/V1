@@ -1,3 +1,7 @@
+</p>
+<p align="center">
+<a href="#"><img title="ALPHABOT MULTI DEVICE" src="https://img.shields.io/badge/ALPHABOT MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
 # V1
 Simple Rpg WhatsApp Bot V1
 
