@@ -35,8 +35,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/saipulanuar/v18
-cd v18
+git clone https://github.com/WallHackBotz/V1
+cd V1
 npm install
 npm update
 ```
@@ -51,7 +51,7 @@ npm update
 
 ```bash
 git clone https://github.com/saipulanuar/v18
-cd v18
+cd V1
 npm install
 npm update
 ```
