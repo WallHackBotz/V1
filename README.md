@@ -70,4 +70,4 @@ node .
 
 <a href="https://github.com/DikaArdnt"><img src="https://github.com/Nurutomot.png?size=100" width="100" height="100"></a>
 [Nurutomo](https://github.com/Nurutomo)
-Pembuat Base |
+Pembuat Base 
