@@ -45,14 +45,14 @@ handler.all = async function (m, { isBlocked }) {
 ┃✾ *1 Bulan :* Rp 15000
 ┃✾ *Permanen :* Rp 30000
 ┃✾ *Premium :* Rp 15000
-┃✾ *Sc Bot :* https://youtu.be/gk7euEW1vis 
+┃✾ *Sc Bot :* *PRIVASI DEK*
 ┗━ꕥ
 ┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
-┃✾ *Dana :* 0882-7926-8363
+┃✾ *GOPAY :* 0895-4019-28948
 ┃✾ *Gopay :* Masih Lewat Qr
 ┃✾ *Ovo :* Masih Lewat Qr
 ┃✾ *Pulsa :* Masih Belum Bisa 
-┗━ꕥ`.trim(), footer, 'Dana', '#viadana', 'Owner', '#owner', m)
+┗━ꕥ`.trim(), footer, 'Dana', '#viaGopay', 'Owner', '#owner', m)
 }
     // salam
     let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
