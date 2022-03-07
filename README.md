@@ -50,7 +50,7 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/saipulanuar/v18
+git clone https://github.com/WallHackBotz/V1
 cd V1
 npm install
 npm update
