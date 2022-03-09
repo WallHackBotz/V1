@@ -49,10 +49,9 @@ handler.all = async function (m, { isBlocked }) {
 ┗━ꕥ
 ┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
 ┃✾ *GOPAY :* 0895-4019-28948
-┃✾ *Gopay :* Masih Lewat Qr
 ┃✾ *Ovo :* Masih Lewat Qr
 ┃✾ *Pulsa :* Masih Belum Bisa 
-┗━ꕥ`.trim(), footer, 'Dana', '#viaGopay', 'Owner', '#owner', m)
+┗━ꕥ`.trim(), footer, 'Gopay', '#viaGopay', 'Owner', '#owner', m)
 }
     // salam
     let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
@@ -67,7 +66,7 @@ handler.all = async function (m, { isBlocked }) {
      json = await res.buffer()
      await conn.sendFile(m.chat, json, 'error.mp3', null, m, true)
     }
-    if (isTes && !m.fromMe) {
+    if (is && !m.fromMe) {
         m.reply(`Iya sayang sudah aktif kok:')`)
         let res = await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/audio/sayang.mp3`)
      json = await res.buffer()
