@@ -58,7 +58,7 @@ namaig = 'https://instagram.com/drak_ipul123'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
 namakontak1 = 'Owner Utama'
-namakontak2 = 'Wakil gwejh'
+namakontak2 = 'Manusia'
 
 //kasihcaption = `Nih Kak`
 
@@ -70,7 +70,7 @@ global.author = 'King Of Bear' // ganti aja
 bc = 'Alan BOTZ || V3' //King Of Bear Broadcast
 footer = '\n©𝐁𝐎𝐓'
 namabot = '𝐁𝐎𝐓'
-namalu = 'Alan Si Colikiawan'
+namalu = 'Alan'
 
 
 // 
