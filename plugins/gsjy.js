@@ -251,12 +251,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃✾ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┗━ꕥ
 ┏━ꕥ
-┃✾ Script by King Of Bear
-┃✾ Di Tulis Ulang Alan 
+┃✾ Script by ALan 
 ┃✾ Run bot : Heroku
 ┃✾ Tipe SC Alan BOTZ || V3
-┃✾ Github Gwejh
-┃✾ https://github.com/WallHackBotz
 ┗━━━━━━━━⬣`.trim(),
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
