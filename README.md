@@ -1,8 +1,8 @@
 # V1
 Simple Rpg WhatsApp Bot V1
 
-<a href="https://github.com/saipulanuar/v18/network/members"><img title="Forks" src="https://img.shields.io/github/forks/saipulanuar/v18?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/saipulanuar/v18/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/saipulanuar/v18?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/WallhackBotz/V1/network/members"><img title="Forks" src="https://img.shields.io/github/forks/WallHackBotz/V1?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/WallHackBotz/V1/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/saipulanuar/v18?label=Watchers&color=green&style=flat-square"></a>
 <a href="https://github.com/saipulanuar/v18/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/saipulanuar/v18?label=Stars&color=yellow&style=flat-square"></a>
 <a href="https://github.com/saipulanuar/v18/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/saipulanuar/v18?label=Contributors&color=blue&style=flat-square"></a>
 <a href="https://github.com/saipulanuar/v18/issues"><img title="Issues" src="https://img.shields.io/github/issues/saipulanuar/v18?label=Issues&color=success&style=flat-square"></a>
