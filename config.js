@@ -18,7 +18,7 @@ gc3 = 'https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8'
 global.linkGC = ['https://chat.whatsapp.com/KsPXe06GnCNC4pg1BYf9wT', 'https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8'] // ganti jadi group lu
 global.owner = ['62895328255152','6287876723133','6285236600390','6281285921254','6281932715031', '62895401928948','6285388958030','6289636126485',] // Put your number here //owner eval
 global.kontak = ['62895328255152','6281226675327',] //Ketika ada yang ngetik #owner
-global.mods = ['62881026342148','6285780689812','6281226675327'] // Want some help?
+global.mods = ['62881026342148','6285780689812',] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
