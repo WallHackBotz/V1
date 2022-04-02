@@ -24,15 +24,14 @@ let handler  = async (m, { conn, usedPrefix }) => {
 
 
 ➥ ${namabot} Versi ${package.version}
-➥ *Yt:* https://www.youtube.com/channel/UCTK9VwCXKJXOLh8XusN1JpQ/featured
+➥ *Sc:* Besok / tahun depan Up sc
 ➥ *Ping:* ${neww - old} *ms*
 ➥ *Total user:* ${totalreg} *user*
 ➥ *Uptime:* ${uptime}
 
 ═ 〘 DONASI 〙 ═
 ➥ Saweria : https://saweria.co/Alanadi
-➥ GOPAY: [0895wa web
--3282-55152]
+➥ GOPAY: [0895-3282-55152]
 
 
 ➥ Request? wa.me/62895328255152
@@ -40,17 +39,17 @@ let handler  = async (m, { conn, usedPrefix }) => {
 Official Grup :
 
 Grup 1 :
-https://chat.whatsapp.com/Dc1eNBwm7j51rLmQTTzZg0
+https://chat.whatsapp.com/
 
 Grup 2 :
-https://chat.whatsapp.com/G4tkkntvsnYEnes8DKd3g8
+https://chat.whatsapp.com/
 
 Grup 3 :
-https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8
+https://chat.whatsapp.com/
 
 
  ©BaseNew ${namabot}
- Script original by King Of Bear
+ Script original by Nurutomo
  
  
 ═〘 ${namabot} 〙 ═
