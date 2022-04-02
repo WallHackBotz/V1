@@ -19,7 +19,7 @@ global.linkGC = ['https://chat.whatsapp.com/KsPXe06GnCNC4pg1BYf9wT', 'https://ch
 global.owner = ['62895328255152','6287876723133','6285236600390','6281285921254','6281932715031', '62895401928948','6285388958030','6289636126485',] // Put your number here //owner eval
 global.kontak = ['62895328255152','6281226675327',] //Ketika ada yang ngetik #owner
 global.mods = ['62881026342148','6285780689812',] // Want some help?
-global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
+global.prems = ['6281226675327'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
