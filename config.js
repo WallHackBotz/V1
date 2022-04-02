@@ -16,10 +16,10 @@ gc1 = 'https://chat.whatsapp.com/LDLbTSvavg62nEVQH3xFTN'
 gc2 = 'https://chat.whatsapp.com/KsPXe06GnCNC4pg1BYf9wT'
 gc3 = 'https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8'
 global.linkGC = ['https://chat.whatsapp.com/KsPXe06GnCNC4pg1BYf9wT', 'https://chat.whatsapp.com/Fh0eaf7IuuG3i67wXRC1O8'] // ganti jadi group lu
-global.owner = ['62895328255152','6287876723133','6285236600390','6281285921254','6281932715031','6281226675327','62895401928948','6285388958030','6289636126485','6285643611571','6285713735857'] // Put your number here //owner eval
+global.owner = ['62895328255152','6287876723133','6285236600390','6281285921254','6281932715031', '62895401928948','6285388958030','6289636126485',] // Put your number here //owner eval
 global.kontak = ['62895328255152','6281226675327',] //Ketika ada yang ngetik #owner
 global.mods = ['62881026342148','6285780689812','6281226675327'] // Want some help?
-global.prems = ['6281226675327','62895328255152','62895401928948','6287882887768','6282291374279','6285236600390','6285780689812','6287876723133','628193271503','62881026341248','6289635009900','6289653145792',] // Premium user has unlimited limit
+global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
@@ -67,10 +67,10 @@ global.packname = 'By King Of Bear' // ganti aja
 global.author = 'King Of Bear' // ganti aja
 
 //yyy
-bc = 'Alan BOTZ || V3' //King Of Bear Broadcast
-footer = '\n©𝐁𝐎𝐓'
-namabot = '𝐁𝐎𝐓'
-namalu = 'Alan'
+bc = '𝗥𝗥𝗦𝗦𝗭𝗫𝗫 𝗕𝗢𝗧' //King Of Bear Broadcast
+footer = '\n© 𝗥𝗥𝗦𝗦𝗭𝗫𝗫 𝗕𝗢𝗧'
+namabot = '𝗥𝗥𝗦𝗦𝗭𝗫𝗫 𝗕𝗢𝗧'
+namalu = '𝗥𝗥𝗦𝗦𝗭𝗫𝗫'
 
 
 // 
