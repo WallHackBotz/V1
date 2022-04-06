@@ -1,5 +1,7 @@
 let fs = require('fs')
 let fetch = require('node-fetch')
+let wm = global.botwm
+let logo = global.logo
 let handler = m => m
 
 handler.all = async function (m, { isBlocked }) {
@@ -15,65 +17,38 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? `${namabot} tidak aktif` : banned ? 'kamu dibanned' : `${namabot} disini, ada yang bisa saya bantu?`,
-                footer,
-                isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
-                isBanned ? '.unban' : banned ? '.owner' : '.?',
-                m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
-                m.isGroup ? '.ban' : isBanned ? '.unban' : '.donasi', m)
+                isBanned ? 'Rrsszxx lagi cape (・へ・)' : banned ? 'kamu dibanned' : 'Rrsszxx disini （ ・∀・）',
+                '',
+                isBanned ? 'Unban' : banned ? 'Pemilik Bot' : '⋮☰ Menu',
+                isBanned ? '.unban' : banned ? '.owner' : '.menu',
+                m.isGroup ? 'Owner' : isBanned ? 'Donasi' : 'Donasi',
+                m.isGroup ? '.nowner' : isBanned ? '.donasi' : '.donasi', m)
         }
     } catch (e) {
         return
     }
 
     // ketika ada yang invite/kirim link grup di chat pribadi
-    let levelling = require('../lib/levelling')
-    let { name, limit, exp, lastclaim, registered, regTime, age, level, role } = global.db.data.users[m.sender]
-    let { min, xp, max } = levelling.xpRange(level, global.multiplier)
-    let math = max - xp
-    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup && !m.fromMe && !m.isOwner) {
-        this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
-┃✾ Hai, ${name}!
-┃
-┃✾ Tersisa *${limit} Limit*
-┃✾ Role *${role}*
-┃✾ Level *${level} (${exp - min} / ${xp})* 
-┃✾ [${math} XP lagi untuk levelup]
-┃✾ ${exp} XP secara Total
-┗━ꕥ
-┏━━━ꕥ〔 *BELI/SEWA BOT* 〕ꕥ━⬣
-┃✾ *1 Bulan :* Rp 15000
-┃✾ *Permanen :* Rp 30000
-┃✾ *Premium :* Rp 15000
-┃✾ *Sc Bot :* *PRIVASI DEK*
-┗━ꕥ
-┏━━━ꕥ〔 *PEMBAYARAN* 〕ꕥ━⬣
-┃✾ *GOPAY :* 0895-4019-28948
-┃✾ *Ovo :* Masih Lewat Qr
-┃✾ *Pulsa :* Masih Belum Bisa 
-┗━ꕥ`.trim(), footer, 'Gopay', '#viaGopay', 'Owner', '#owner', m)
+    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
+        this.send2ButtonLoc(m.chat, logo, `
+╭─❒「 List Sewa 」
+│⬦ *1 Bulan* :      *Rp 5000*
+│⬦ *2 bulan* :      *Rp 10000*
+┝━━「 *Payment* 」
+│⬦ Gopay
+│⬦ Saweria
+│⬦ Pulsa
+╰❒
+Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Payment', '#payment', 'Owner', '#owner', m)
 }
+
     // salam
-    let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
-    let regg = /(Tes)/i
-
+    let reg = /(terima?kasih|makasih|maacih|tengkyuh)/i
     let isSalam = reg.exec(m.text)
-    let isTes = regg.exec(m.text)
-
     if (isSalam && !m.fromMe) {
-        m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`)
-        let res = await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/audio/assalamualaikum.mp3`)
-     json = await res.buffer()
-     await conn.sendFile(m.chat, json, 'error.mp3', null, m, true)
-    }
-    if (is && !m.fromMe) {
-        m.reply(`Iya sayang sudah aktif kok:')`)
-        let res = await fetch(`https://github.com/saipulanuar/Api-Github/raw/main/audio/sayang.mp3`)
-     json = await res.buffer()
-     await conn.sendFile(m.chat, json, 'error.mp3', null, m, true)
+        m.reply(`Sama-sama, , （ ・∀・）`)
     }
 
-    
     // backup db
     if (setting.backup) {
         if (new Date() * 1 - setting.backupDB > 1000 * 60 * 60) {
@@ -94,7 +69,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | ${namabot} by ${namalu}`).catch(_ => _)
+        await this.setStatus(`Rrsszxx 🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User || 🎐 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
