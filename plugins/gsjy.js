@@ -8,29 +8,29 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-┏━━━ꕥ〔 *${namabot}* 〕ꕥ━⬣
-┃✾ Hai, %name!
-┃
-┃✾ Tersisa *%limit Limit*
-┃✾ Role *%role*
-┃✾ Level *%level (%exp / %maxexp)* 
-┃✾ [%xp4levelup]
-┃✾ %totalexp XP secara Total
-┗━ꕥ
-┏━ꕥ 
-┃✾ Hari : *%week %weton* 
-┃✾ Tanggal : *%date*
-┃✾ Tanggal Islam : *%dateIslamic*
-┗━ꕥ
-┏━ꕥ
-┃✾ Uptime: *%uptime (%muptime)*
-┃✾ Database: %rtotalreg dari %totalreg
-┗━━━━━━ꕥ`.trimStart(),
-  header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
-  body: '┃✾%cmd %islimit %isPremium',
-  footer: '┗━ꕥ\n',
+╭─❒「 *${namabot}* 」
+├ Hai, %name!
+├
+├ Tersisa *%limit Limit*
+├ Role *%role*
+├ Level *%level (%exp / %maxexp)* 
+├ [%xp4levelup]
+├ %totalexp XP secara Total
+╰❒
+╭─❒
+├ Hari : *%week %weton* 
+├ Tanggal : *%date*
+├ Tanggal Islam : *%dateIslamic*
+╰❒
+╭─❒
+├ Uptime: *%uptime (%muptime)*
+├ Database: %rtotalreg dari %totalreg
+╰❒`.trimStart(),
+  header: '╭─❒「 *%category* 」',
+  body: '├✾%cmd %islimit %isPremium',
+  footer: '╰❒\n',
   after: `
-*%npmname@^%version*
+*%npmname %version*
 ${'```%npmdesc```'}
 `,
 }
@@ -241,21 +241,16 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
           "description": `
-┏━━ꕥ〔 *Status* 〕ꕥ━⬣
-┃✾ Aktif selama ${uptime}
-┃✾ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-┃✾ *${Object.keys(global.db.data.users).length}* Pengguna
-┃✾ *${totaljadibot.length}* Jadibot
-┃✾ *${conn.blocklist.length}* Terblock
-┃✾ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
-┃✾ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-┗━ꕥ
-┏━ꕥ
-┃✾ Script by ALan 
-┃✾ Run bot : Heroku
-┃✾ Tipe SC Alan BOTZ || V3
-┗━━━━━━━━⬣`.trim(),
-          "buttonText": "Klik Disini",
+╭─❒ 「 *Status* 」
+┃⏰ Aktif selama ${uptime}
+┃🔋 Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+┃🗃️ *${Object.keys(global.db.data.users).length}* Pengguna
+┃🤖 *${totaljadibot.length}* Jadibot
+┃🥴 *${conn.blocklist.length}* Terblock
+┃🤫 *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+┃👻 *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+╰❒`.trim(),
+          "buttonText": "Click Here",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
@@ -290,7 +285,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": ".? xp"
                 },  {
                   "title": "[🔞] NSFW",
-                  "description": "Menu Bokep",
+                  "description": "Menu Hentai",
                   "rowId": ".? nsfw"
                 }, {
                   "title": "[🖼️] Random Image",
@@ -345,17 +340,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "description": "Menu Ceria",
                   "rowId": ".? fun"
                 }, {
-                  "title": "[📂] Database",
+                  "title": "[🗃️] Database",
                   "description": "Simpan Sesuatu Di Bot",
                   "rowId": ".? database"
                 }, {
                   "title": "[📝] Vote & Absen",
                   "description": "Menu Vote & Absen",
                   "rowId": ".? vote"
-                }, {
-                  "title": "[🎙️] Pengubah Suara",
-                  "description": "Ubah Suaramu",
-                  "rowId": ".? audio"
                 }, {
                   "title": "[🎙️] Sound Music",
                   "description": "Dengar Music Singkat",
@@ -380,10 +371,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "title": "[🔧] Virus",
                   "description": "Virus Yang Bisa Membuat Whatsapp Orang Ngelag/Error",
                   "rowId": ".? virus"
-                }, {
-                  "title": "Tanpa Kategori",
-                  "description": "",
-                  "rowId": ".? tanpakategori"
                 }, {
                   "title": "[🧑‍💻] Owner",
                   "description": "Menu Khusu Owner",
