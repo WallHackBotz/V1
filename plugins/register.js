@@ -21,12 +21,11 @@ let handler = async function (m, { text, usedPrefix }) {
   
   m.reply(`
 ◪ *「 DAFTAR BERHASIL 」*
-╰───────────────────╮
-╭───────────────────╯
+├
 ├❏ Nama : ${name}
 ├❏ Umur : ${age} tahun
 ├❏ SN: ${sn}
-╰───────────────────╯
+╰❒
 `.trim())
 u = 'Klik Tombol Rules untuk melihat peraturan yang ada di bot ini\nSilahkan klik tombol menu untuk menggunakan Bot'
 await conn.send2Button(m.chat, u, footer, 'Rules Bot', '#rules', 'Tampilkan Menu', '#menu', m)
