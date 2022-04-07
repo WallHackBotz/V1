@@ -1,32 +1,32 @@
 let { MessageType } = require('@adiwajshing/baileys')
 const potion = 500
-const Spotion = 1000
-const Bdiamond = 15000
-const Sdiamond = 30000
+const Spotion = 150 
+const Bdiamond = 9000
+const Sdiamond = 7500
 const Blimit = 20000
-const Bcommon = 50000
-const Scommon = 45000
-const Suncommon = 30000
-const Buncommon = 30000
-const Bmythic = 200000
-const Smythic = 225000
-const Biron = 10000
-const Siron = 5000
-const Sbatu = 5000
-const Upickaxe = 75000
-const Ufishing = 65000
-const Blegendary = 750000
-const Slegendary = 3000000
-const Bsampah = 1
-const Ssampah = 10
+const Bcommon = 7000
+const Scommon = 4000
+const Suncommon = 6000
+const Buncommon = 3000
+const Bmythic = 20000
+const Smythic = 15000
+const Biron = 5000
+const Siron = 3000
+const Sbatu = 500
+const Upickaxe = 25000
+const Ufishing = 25000
+const Blegendary = 7500
+const Slegendary = 3000
+const Bsampah = 4000
+const Ssampah = 2000
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 	if (!db.data.chats[m.chat].rpg && m.isGroup) throw global.rpg
     const _armor = global.db.data.users[m.sender].armor
-    const armor = (_armor == 0 ? 20000 : '' || _armor == 1 ? 49999 : '' || _armor == 2 ? 999999 : '' || _armor == 3 ? 249999 : '' || _armor == 4 ? 599999 : '')
+    const armor = (_armor == 0 ? 20000 : '' || _armor == 1 ? 49999 : '' || _armor == 2 ? 99999 : '' || _armor == 3 ? 149999 : '' || _armor == 4 ? 299999 : '')
     const _pickaxe = global.db.data.users[m.sender].pickaxe
-    const pickaxe = (_pickaxe == 0 ? 20000 : '' || _pickaxe == 1 ? 49999 : '' || _pickaxe == 2 ? 999999 : '' || _pickaxe == 3 ? 249999 : '' || _pickaxe == 4 ? 599999 : '')
-    const _fishingrod = global.db.data.users[m.sender].fishingrod
-    const fishingrod = (_fishingrod == 0 ? 850000: '' || _fishingrod == 1 ? 1000000 : '' || _fishingrod == 2 ? 3000000 : '' || _fishingrod == 3 ? 15000000 : '' || _fishingrod == 4 ? 40000000 : '')
+    const pickaxe = (_pickaxe == 0 ? 20000 : '' || _pickaxe == 1 ? 49999 : '' || _pickaxe == 2 ? 99999 : '' || _pickaxe == 3 ? 149999 : '' || _pickaxe == 4 ? 299999 : '')
+        const _fishingrod = global.db.data.users[m.sender].fishingrod
+    const fishingrod = (_fishingrod == 0 ? 20000 : '' || _fishingrod == 1 ? 49999 : '' || _fishingrod == 2 ? 99999 : '' || _fishingrod == 3 ? 149999 : '' || _fishingrod == 4 ? 299999 : '')
     let type = (args[0] || '').toLowerCase()
     let _type = (args[1] || '').toLowerCase()
     let jualbeli = (args[0] || '').toLowerCase()
