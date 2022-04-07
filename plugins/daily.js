@@ -1,68 +1,28 @@
-let { MessageType } = require('@adiwajshing/baileys')
-
-let handler = async (m, { conn }) => {
-    let user = global.db.data.users[m.sender]
-    let __timers = (new Date - user.lastclaim)
-    let _timers = ( 86400000 - __timers)
-    let timers = clockString(_timers) 
-    if (new Date - user.lastclaim >  86400000) {
-        conn.reply(m.chat, `Anda sudah mengklaim dan mendapatkan 1000000 💵money 10 potion 10000 exp`, m)
-        global.db.data.users[m.sender].money += 1000000
-        global.db.data.users[m.sender].potion += 10
-        global.db.data.users[m.sender].exp += 10000
-        global.db.data.users[m.sender].lastclaim = new Date * 1
-    } else {
-        let buttons = `silahkan tunggu *🕒${timers}* lagi untuk bisa mengclaim lagi`.trim()
-        conn.send2Button(m.chat, buttons, footer, 'Weekly', '#weekly', 'Monthly', '#monthly')
-    }
+const free = 500
+const prem = 5000
+const owner = 50000
+let handler = async (m, { conn, usedPrefix, isPrems }) => {
+  if (db.data.users[m.sender].level < 1) return await conn.sendButton(m.chat, 'naikan level kamu', '© Rrsszxx', 'Level Up', `${usedPrefix}levelup`, m)
+  let time = db.data.users[m.sender].lastclaim + 86400000
+  if (new Date - db.data.users[m.sender].lastclaim < 86400000) throw `Kamu sudah mengklaim klaim harian hari ini\ntunggu selama ${msToTime(time - new Date())} lagi`
+  db.data.users[m.sender].exp += isPrems ? prem * db.data.users[m.sender].level : free * db.data.users[m.sender].level
+  m.reply(`+${isPrems ? prem * db.data.users[m.sender].level : free * db.data.users[m.sender].level} XP\n\nsemakin tinggi level, semakin tinggi juga XP yang didapat`)
+  db.data.users[m.sender].lastclaim = new Date * 1
 }
-handler.help = ['claim']
-handler.tags = ['rpg']
-handler.command = /^(claim|daily)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
-handler.money = 0
-
+handler.help = ['daily', 'claim']
+handler.tags = ['xp']
+handler.command = /^(daily|claim)$/i
 module.exports = handler
 
-function pickRandom(list) {
-  return list[Math.floor(list.length * Math.random())]
-}
-function clockString(ms) {
-  let h = Math.floor(ms / 3600000)
-  let m = Math.floor(ms / 60000) % 60
-  let s = Math.floor(ms / 1000) % 60
-  console.log({ms,h,m,s})
-  return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')
-}
+function msToTime(duration) {
+  var milliseconds = parseInt((duration % 1000) / 100),
+    seconds = Math.floor((duration / 1000) % 60),
+    minutes = Math.floor((duration / (1000 * 60)) % 60),
+    hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
 
-function button(teks, user) {
-    const buttons = []
-    
-    let claim = new Date - user.lastclaim > 86400000
-    let monthly = new Date - user.lastmonthly > 2592000000
-    let weekly = new Date - user.lastweekly > 86400000
-    console.log({claim, monthly, weekly})
-    
-    if (monthly) buttons.push({buttonId: `id${buttons.length + 1}`, buttonText: {displayText: '/monthly'}, type: 1})
-    if (weekly) buttons.push({buttonId: `id${buttons.length + 1}`, buttonText: {displayText: '/weekly'}, type: 1})
-    if (claim) buttons.push({buttonId: `id${buttons.length + 1}`, buttonText: {displayText: '/claim'}, type: 1})
-    if (buttons.length == 0) throw teks
-    
-    const buttonMessage = {
-        contentText: teks,
-        footerText: footer,
-        buttons: buttons,
-        headerType: 1
-    }
-    
-    return buttonMessage
+  hours = (hours < 10) ? "0" + hours : hours
+  minutes = (minutes < 10) ? "0" + minutes : minutes
+  seconds = (seconds < 10) ? "0" + seconds : seconds
+
+  return hours + " jam " + minutes + " menit"
 }
