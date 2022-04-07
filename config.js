@@ -63,8 +63,8 @@ namakontak2 = 'Manusia'
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
-global.packname = 'By King Of Bear' // ganti aja
-global.author = 'King Of Bear' // ganti aja
+global.packname = 'By Rrsszxx' // ganti aja
+global.author = 'Rrsszxx - Sama' // ganti aja
 
 //yyy
 bc = '𝗥𝗥𝗦𝗦𝗭𝗫𝗫 𝗕𝗢𝗧' //King Of Bear Broadcast
