@@ -8,7 +8,7 @@ Simple Rpg WhatsApp Bot V1
 <a href="https://github.com/saipulanuar/v18/issues"><img title="Issues" src="https://img.shields.io/github/issues/saipulanuar/v18?label=Issues&color=success&style=flat-square"></a>
 <a href="https://github.com/saipulanuar/v18/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/saipulanuar/v18?label=Issues&color=red&style=flat-square"></a>
 <a href="https://github.com/saipulanuar/v18/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/saipulanuar/v18?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/saipulanuar/v18/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Wa
+<a href="https://github.com/saipulanuar/v18/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/saipulanuar/v18?label=PullRequest&color=red&style=flat-square"></a>
 
 ## Join Group Diskusi
 [![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EEuvxqQuv4bGsjrTttzFz8) 
