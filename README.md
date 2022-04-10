@@ -70,5 +70,5 @@ node .
 
 <a href="https://github.com/Nurutomo"><img src="https://github.com/Nurutomo.png?size=100" width="100" height="100"></a> | [![King Of Bear](https://github.com/saipulanuar.png?size=100)](https://github.com/saipulanuar) |  [![Alan](https://github.com/WallHackBotz.png?size=100)](https://github.com/WallHackbotz) 
 ---|---|---
-[Nurutomo](https://github.com/Nurutomo)  | [King Of Bear](https://github.com/saipulanuar) | [Alan](https://github.com/WallHackBotz)
+[Nurutomo](https://github.com/Nurutomo)  | [King Of Bear](https://github.com/saipulanuar) | [Rrsszxx](https://github.com/WallHackBotz)
 Author / Creator| Penambah Fitur | Penulis Ulang 
